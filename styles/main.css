@@ -46,7 +46,7 @@ a:hover{
     transition: all 0.3s;
 }
 
-/*подменю*/
+/*!*подменю*! меню*/
 .dws-menu li ul{
     position: absolute;
     min-width: 150px;
