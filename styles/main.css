@@ -33,16 +33,19 @@ header{
     border-right: 1px solid indigo;
 
 }
+
 .dws-menu ul li:first-child{
     border-left: 1px solid indigo;
 }
 .dws-menu ul li:last-child{
     border-right: 1px solid indigo;
 }
-.dws-menu li a:hover{
+.dws-menu ul li:hover > a,
+a:hover{
     background: indigo;
     transition: all 0.3s;
 }
+
 /*подменю*/
 .dws-menu li ul{
     position: absolute;
@@ -66,4 +69,6 @@ header{
     display: block;
 }
 
-
+li:hover > a{
+    background: hotpink;
+}
